@@ -7,41 +7,67 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
             padding: 0;
             background-color: #f0f0f0;
         }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+        }
         .container {
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 50px 20px;
+            padding: 20px;
+            text-align: center;
         }
         h1 {
             font-size: 36px;
-            color: #333;
+            margin-bottom: 20px;
         }
         p {
             font-size: 18px;
-            color: #666;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 30px;
         }
         .btn {
             display: inline-block;
-            padding: 10px 20px;
-            background-color: #007BFF;
+            padding: 15px 30px;
+            background-color: #FF4500;
             color: #fff;
             text-decoration: none;
             font-size: 20px;
             border-radius: 5px;
-            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Neohash</h1>
-        <p>Your Source for Innovative Solutions</p>
-        <a href="https://neohash.co" class="btn">Visit Our Website</a>
-    </div>
-</body>
-</html>
+    <header>
+        <div class="container">
+            <h1>Neohash</h1>
+            <nav>
+                <a href="#about">About</a> |
+                <a href="#services">Services</a> |
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <img src="your-image-url.jpg" alt="Neohash Image" class="hero-image">
+            <h1>Welcome to Neohash</h1>
+            <p>Your Source for Innovative Solutions</p>
+            <a href="https://neohash.co" class="btn">Visit Our Website</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <
